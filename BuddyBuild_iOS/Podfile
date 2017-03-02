@@ -6,7 +6,8 @@ target 'BuddyBuild_iOS' do
   use_frameworks!
   pod 'Fabric'
 #  pod 'WebApi', :path => '/Users/mobile/Documents/gbm/ios/WebApi-iOS'
-  pod 'WebApi', :git => 'https://gbmdigital.visualstudio.com/DefaultCollection/Mobile%20Core/_git/WebApi-iOS', :branch => '3635_dev_ios'
+#  pod 'WebApi', :git => 'https://gbmdigital.visualstudio.com/DefaultCollection/Mobile%20Core/_git/WebApi-iOS', :branch => '3635_dev_ios'
+   
 
   # Pods for BuddyBuild_iOS
 
