@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5FC9FCB2447F89C7AD0C904018F943606627DE4D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B125EDC7410665498AFB6198ED1EBC5D172E5E9D" : 0,
+    "5FC9FCB2447F89C7AD0C904018F943606627DE4D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "23B4C92A-3431-404C-8C68-89449C81FD4A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B125EDC7410665498AFB6198ED1EBC5D172E5E9D" : "..\/gbm\/ios\/WebApi-iOS",
+    "5FC9FCB2447F89C7AD0C904018F943606627DE4D" : "BuddyBuild_iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BuddyBuild_iOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BuddyBuild_iOS\/BuddyBuild_iOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/enigma2006x\/BuddyBuild_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FC9FCB2447F89C7AD0C904018F943606627DE4D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gbmdigital.visualstudio.com\/DefaultCollection\/Mobile%2520Core\/_git\/WebApi-iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B125EDC7410665498AFB6198ED1EBC5D172E5E9D"
+    }
+  ]
+}
