@@ -4,16 +4,22 @@ PODS:
 
 DEPENDENCIES:
   - Fabric
-  - WebApi (from `/Users/mobile/Documents/gbm/ios/WebApi-iOS`)
+  - WebApi (from `https://gbmdigital.visualstudio.com/DefaultCollection/Mobile%20Core/_git/WebApi-iOS`, branch `3635_dev_ios`)
 
 EXTERNAL SOURCES:
   WebApi:
-    :path: "/Users/mobile/Documents/gbm/ios/WebApi-iOS"
+    :branch: 3635_dev_ios
+    :git: https://gbmdigital.visualstudio.com/DefaultCollection/Mobile%20Core/_git/WebApi-iOS
+
+CHECKOUT OPTIONS:
+  WebApi:
+    :commit: 0e2b62492fe5c1109103968ecbe37ad7b775252e
+    :git: https://gbmdigital.visualstudio.com/DefaultCollection/Mobile%20Core/_git/WebApi-iOS
 
 SPEC CHECKSUMS:
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   WebApi: add0e26db2607095a74a985d9301096ef90b6deb
 
-PODFILE CHECKSUM: 3fd6377dec032878d42cfdb4f18d2c8cd309ab29
+PODFILE CHECKSUM: 86198a731ddb2d92ed6fe221119134f6b3ca5c41
 
 COCOAPODS: 1.1.1
