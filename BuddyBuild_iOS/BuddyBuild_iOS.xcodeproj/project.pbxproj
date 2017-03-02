@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4477469EFDD76D454F8E8B /* Pods_BuddyBuild_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68E3778182DE804F1A19D3C /* Pods_BuddyBuild_iOS.framework */; };
 		75CB90A71E687B4500B5E868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB90A61E687B4500B5E868 /* AppDelegate.swift */; };
 		75CB90A91E687B4500B5E868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB90A81E687B4500B5E868 /* ViewController.swift */; };
 		75CB90AC1E687B4500B5E868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CB90AA1E687B4500B5E868 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		75CB90B11E687B4500B5E868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CB90AF1E687B4500B5E868 /* LaunchScreen.storyboard */; };
 		75CB90BC1E687B4500B5E868 /* BuddyBuild_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB90BB1E687B4500B5E868 /* BuddyBuild_iOSTests.swift */; };
 		75CB90C71E687B4500B5E868 /* BuddyBuild_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB90C61E687B4500B5E868 /* BuddyBuild_iOSUITests.swift */; };
+		F46AB8082B66556E5F56C624 /* Pods_BuddyBuild_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790303299CC968D9083B6E39 /* Pods_BuddyBuild_iOSTests.framework */; };
+		F55EBE628721B1A9F5592DC7 /* Pods_BuddyBuild_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5245D8FFF78B5C0AE76E76E3 /* Pods_BuddyBuild_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C3A018C5831259469194A54 /* Pods-BuddyBuild_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuild_iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuild_iOSUITests/Pods-BuddyBuild_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5245D8FFF78B5C0AE76E76E3 /* Pods_BuddyBuild_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuddyBuild_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551E1DD6CC94F6E22962F869 /* Pods-BuddyBuild_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuild_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuild_iOS/Pods-BuddyBuild_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7204750EF1F0AFDA002EE163 /* Pods-BuddyBuild_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuild_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuild_iOSTests/Pods-BuddyBuild_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75CB90A31E687B4500B5E868 /* BuddyBuild_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyBuild_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CB90A61E687B4500B5E868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CB90A81E687B4500B5E868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		75CB90C21E687B4500B5E868 /* BuddyBuild_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuild_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CB90C61E687B4500B5E868 /* BuddyBuild_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuild_iOSUITests.swift; sourceTree = "<group>"; };
 		75CB90C81E687B4500B5E868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790303299CC968D9083B6E39 /* Pods_BuddyBuild_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuddyBuild_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80481AD58E586DDF215D7712 /* Pods-BuddyBuild_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuild_iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuild_iOSUITests/Pods-BuddyBuild_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84C35376065DEB4E824E89CC /* Pods-BuddyBuild_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuild_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuild_iOS/Pods-BuddyBuild_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A68E3778182DE804F1A19D3C /* Pods_BuddyBuild_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuddyBuild_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90A235F324A4AFABDF2E18E /* Pods-BuddyBuild_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuild_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuild_iOSTests/Pods-BuddyBuild_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4477469EFDD76D454F8E8B /* Pods_BuddyBuild_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46AB8082B66556E5F56C624 /* Pods_BuddyBuild_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55EBE628721B1A9F5592DC7 /* Pods_BuddyBuild_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				75CB90BA1E687B4500B5E868 /* BuddyBuild_iOSTests */,
 				75CB90C51E687B4500B5E868 /* BuddyBuild_iOSUITests */,
 				75CB90A41E687B4500B5E868 /* Products */,
+				8E4DDFFF2DDE208E77C07052 /* Pods */,
+				A0335D7F401A0D4A62368A9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = BuddyBuild_iOSUITests;
 			sourceTree = "<group>";
 		};
+		8E4DDFFF2DDE208E77C07052 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C35376065DEB4E824E89CC /* Pods-BuddyBuild_iOS.debug.xcconfig */,
+				551E1DD6CC94F6E22962F869 /* Pods-BuddyBuild_iOS.release.xcconfig */,
+				7204750EF1F0AFDA002EE163 /* Pods-BuddyBuild_iOSTests.debug.xcconfig */,
+				F90A235F324A4AFABDF2E18E /* Pods-BuddyBuild_iOSTests.release.xcconfig */,
+				3C3A018C5831259469194A54 /* Pods-BuddyBuild_iOSUITests.debug.xcconfig */,
+				80481AD58E586DDF215D7712 /* Pods-BuddyBuild_iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0335D7F401A0D4A62368A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A68E3778182DE804F1A19D3C /* Pods_BuddyBuild_iOS.framework */,
+				790303299CC968D9083B6E39 /* Pods_BuddyBuild_iOSTests.framework */,
+				5245D8FFF78B5C0AE76E76E3 /* Pods_BuddyBuild_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75CB90CB1E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOS" */;
 			buildPhases = (
+				8C639F2D823B599FDAEC03D2 /* [CP] Check Pods Manifest.lock */,
 				75CB909F1E687B4500B5E868 /* Sources */,
 				75CB90A01E687B4500B5E868 /* Frameworks */,
 				75CB90A11E687B4500B5E868 /* Resources */,
+				D9031FB3AA6EBBADE3B4510A /* [CP] Embed Pods Frameworks */,
+				1CBBFFE9A4C7C7DFE70F2CAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75CB90CE1E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOSTests" */;
 			buildPhases = (
+				D3A7D01BC3AF51C64D811D56 /* [CP] Check Pods Manifest.lock */,
 				75CB90B31E687B4500B5E868 /* Sources */,
 				75CB90B41E687B4500B5E868 /* Frameworks */,
 				75CB90B51E687B4500B5E868 /* Resources */,
+				ED95577879B28351CE80B8B4 /* [CP] Embed Pods Frameworks */,
+				4908041D66EA515FC7960346 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75CB90D11E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOSUITests" */;
 			buildPhases = (
+				DAAB57C390787D5D87324DAF /* [CP] Check Pods Manifest.lock */,
 				75CB90BE1E687B4500B5E868 /* Sources */,
 				75CB90BF1E687B4500B5E868 /* Frameworks */,
 				75CB90C01E687B4500B5E868 /* Resources */,
+				CB8A379158286292CC3E0BD2 /* [CP] Embed Pods Frameworks */,
+				5EB65E3B9D0A5BCA1B45FD14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CBBFFE9A4C7C7DFE70F2CAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyBuild_iOS/Pods-BuddyBuild_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4908041D66EA515FC7960346 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyBuild_iOSTests/Pods-BuddyBuild_iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB65E3B9D0A5BCA1B45FD14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyBuild_iOSUITests/Pods-BuddyBuild_iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C639F2D823B599FDAEC03D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB8A379158286292CC3E0BD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyBuild_iOSUITests/Pods-BuddyBuild_iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A7D01BC3AF51C64D811D56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9031FB3AA6EBBADE3B4510A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyBuild_iOS/Pods-BuddyBuild_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAAB57C390787D5D87324DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED95577879B28351CE80B8B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyBuild_iOSTests/Pods-BuddyBuild_iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75CB909F1E687B4500B5E868 /* Sources */ = {
@@ -399,6 +586,7 @@
 		};
 		75CB90CC1E687B4500B5E868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C35376065DEB4E824E89CC /* Pods-BuddyBuild_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -411,6 +599,7 @@
 		};
 		75CB90CD1E687B4500B5E868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551E1DD6CC94F6E22962F869 /* Pods-BuddyBuild_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -423,6 +612,7 @@
 		};
 		75CB90CF1E687B4500B5E868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7204750EF1F0AFDA002EE163 /* Pods-BuddyBuild_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BuddyBuild_iOSTests/Info.plist;
@@ -435,6 +625,7 @@
 		};
 		75CB90D01E687B4500B5E868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90A235F324A4AFABDF2E18E /* Pods-BuddyBuild_iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BuddyBuild_iOSTests/Info.plist;
@@ -447,6 +638,7 @@
 		};
 		75CB90D21E687B4500B5E868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3A018C5831259469194A54 /* Pods-BuddyBuild_iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BuddyBuild_iOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +650,7 @@
 		};
 		75CB90D31E687B4500B5E868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80481AD58E586DDF215D7712 /* Pods-BuddyBuild_iOSUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BuddyBuild_iOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
