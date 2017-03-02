@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75CB90A71E687B4500B5E868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB90A61E687B4500B5E868 /* AppDelegate.swift */; };
+		75CB90A91E687B4500B5E868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB90A81E687B4500B5E868 /* ViewController.swift */; };
+		75CB90AC1E687B4500B5E868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CB90AA1E687B4500B5E868 /* Main.storyboard */; };
+		75CB90AE1E687B4500B5E868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CB90AD1E687B4500B5E868 /* Assets.xcassets */; };
+		75CB90B11E687B4500B5E868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CB90AF1E687B4500B5E868 /* LaunchScreen.storyboard */; };
+		75CB90BC1E687B4500B5E868 /* BuddyBuild_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB90BB1E687B4500B5E868 /* BuddyBuild_iOSTests.swift */; };
+		75CB90C71E687B4500B5E868 /* BuddyBuild_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB90C61E687B4500B5E868 /* BuddyBuild_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75CB90B81E687B4500B5E868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75CB909B1E687B4500B5E868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75CB90A21E687B4500B5E868;
+			remoteInfo = BuddyBuild_iOS;
+		};
+		75CB90C31E687B4500B5E868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75CB909B1E687B4500B5E868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75CB90A21E687B4500B5E868;
+			remoteInfo = BuddyBuild_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75CB90A31E687B4500B5E868 /* BuddyBuild_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyBuild_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CB90A61E687B4500B5E868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75CB90A81E687B4500B5E868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75CB90AB1E687B4500B5E868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75CB90AD1E687B4500B5E868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75CB90B01E687B4500B5E868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75CB90B21E687B4500B5E868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CB90B71E687B4500B5E868 /* BuddyBuild_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuild_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CB90BB1E687B4500B5E868 /* BuddyBuild_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuild_iOSTests.swift; sourceTree = "<group>"; };
+		75CB90BD1E687B4500B5E868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CB90C21E687B4500B5E868 /* BuddyBuild_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuild_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CB90C61E687B4500B5E868 /* BuddyBuild_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuild_iOSUITests.swift; sourceTree = "<group>"; };
+		75CB90C81E687B4500B5E868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75CB90A01E687B4500B5E868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CB90B41E687B4500B5E868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CB90BF1E687B4500B5E868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75CB909A1E687B4500B5E868 = {
+			isa = PBXGroup;
+			children = (
+				75CB90A51E687B4500B5E868 /* BuddyBuild_iOS */,
+				75CB90BA1E687B4500B5E868 /* BuddyBuild_iOSTests */,
+				75CB90C51E687B4500B5E868 /* BuddyBuild_iOSUITests */,
+				75CB90A41E687B4500B5E868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75CB90A41E687B4500B5E868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75CB90A31E687B4500B5E868 /* BuddyBuild_iOS.app */,
+				75CB90B71E687B4500B5E868 /* BuddyBuild_iOSTests.xctest */,
+				75CB90C21E687B4500B5E868 /* BuddyBuild_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75CB90A51E687B4500B5E868 /* BuddyBuild_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75CB90A61E687B4500B5E868 /* AppDelegate.swift */,
+				75CB90A81E687B4500B5E868 /* ViewController.swift */,
+				75CB90AA1E687B4500B5E868 /* Main.storyboard */,
+				75CB90AD1E687B4500B5E868 /* Assets.xcassets */,
+				75CB90AF1E687B4500B5E868 /* LaunchScreen.storyboard */,
+				75CB90B21E687B4500B5E868 /* Info.plist */,
+			);
+			path = BuddyBuild_iOS;
+			sourceTree = "<group>";
+		};
+		75CB90BA1E687B4500B5E868 /* BuddyBuild_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				75CB90BB1E687B4500B5E868 /* BuddyBuild_iOSTests.swift */,
+				75CB90BD1E687B4500B5E868 /* Info.plist */,
+			);
+			path = BuddyBuild_iOSTests;
+			sourceTree = "<group>";
+		};
+		75CB90C51E687B4500B5E868 /* BuddyBuild_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75CB90C61E687B4500B5E868 /* BuddyBuild_iOSUITests.swift */,
+				75CB90C81E687B4500B5E868 /* Info.plist */,
+			);
+			path = BuddyBuild_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75CB90A21E687B4500B5E868 /* BuddyBuild_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CB90CB1E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOS" */;
+			buildPhases = (
+				75CB909F1E687B4500B5E868 /* Sources */,
+				75CB90A01E687B4500B5E868 /* Frameworks */,
+				75CB90A11E687B4500B5E868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddyBuild_iOS;
+			productName = BuddyBuild_iOS;
+			productReference = 75CB90A31E687B4500B5E868 /* BuddyBuild_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75CB90B61E687B4500B5E868 /* BuddyBuild_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CB90CE1E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOSTests" */;
+			buildPhases = (
+				75CB90B31E687B4500B5E868 /* Sources */,
+				75CB90B41E687B4500B5E868 /* Frameworks */,
+				75CB90B51E687B4500B5E868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75CB90B91E687B4500B5E868 /* PBXTargetDependency */,
+			);
+			name = BuddyBuild_iOSTests;
+			productName = BuddyBuild_iOSTests;
+			productReference = 75CB90B71E687B4500B5E868 /* BuddyBuild_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75CB90C11E687B4500B5E868 /* BuddyBuild_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CB90D11E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOSUITests" */;
+			buildPhases = (
+				75CB90BE1E687B4500B5E868 /* Sources */,
+				75CB90BF1E687B4500B5E868 /* Frameworks */,
+				75CB90C01E687B4500B5E868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75CB90C41E687B4500B5E868 /* PBXTargetDependency */,
+			);
+			name = BuddyBuild_iOSUITests;
+			productName = BuddyBuild_iOSUITests;
+			productReference = 75CB90C21E687B4500B5E868 /* BuddyBuild_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75CB909B1E687B4500B5E868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "GBM Mobile";
+				TargetAttributes = {
+					75CB90A21E687B4500B5E868 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					75CB90B61E687B4500B5E868 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 75CB90A21E687B4500B5E868;
+					};
+					75CB90C11E687B4500B5E868 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 75CB90A21E687B4500B5E868;
+					};
+				};
+			};
+			buildConfigurationList = 75CB909E1E687B4500B5E868 /* Build configuration list for PBXProject "BuddyBuild_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75CB909A1E687B4500B5E868;
+			productRefGroup = 75CB90A41E687B4500B5E868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75CB90A21E687B4500B5E868 /* BuddyBuild_iOS */,
+				75CB90B61E687B4500B5E868 /* BuddyBuild_iOSTests */,
+				75CB90C11E687B4500B5E868 /* BuddyBuild_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75CB90A11E687B4500B5E868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CB90B11E687B4500B5E868 /* LaunchScreen.storyboard in Resources */,
+				75CB90AE1E687B4500B5E868 /* Assets.xcassets in Resources */,
+				75CB90AC1E687B4500B5E868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CB90B51E687B4500B5E868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CB90C01E687B4500B5E868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75CB909F1E687B4500B5E868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CB90A91E687B4500B5E868 /* ViewController.swift in Sources */,
+				75CB90A71E687B4500B5E868 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CB90B31E687B4500B5E868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CB90BC1E687B4500B5E868 /* BuddyBuild_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CB90BE1E687B4500B5E868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CB90C71E687B4500B5E868 /* BuddyBuild_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75CB90B91E687B4500B5E868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75CB90A21E687B4500B5E868 /* BuddyBuild_iOS */;
+			targetProxy = 75CB90B81E687B4500B5E868 /* PBXContainerItemProxy */;
+		};
+		75CB90C41E687B4500B5E868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75CB90A21E687B4500B5E868 /* BuddyBuild_iOS */;
+			targetProxy = 75CB90C31E687B4500B5E868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75CB90AA1E687B4500B5E868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75CB90AB1E687B4500B5E868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75CB90AF1E687B4500B5E868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75CB90B01E687B4500B5E868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75CB90C91E687B4500B5E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75CB90CA1E687B4500B5E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75CB90CC1E687B4500B5E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuddyBuild_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GBM-Mobile.BuddyBuild-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75CB90CD1E687B4500B5E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuddyBuild_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GBM-Mobile.BuddyBuild-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75CB90CF1E687B4500B5E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuddyBuild_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GBM-Mobile.BuddyBuild-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyBuild_iOS.app/BuddyBuild_iOS";
+			};
+			name = Debug;
+		};
+		75CB90D01E687B4500B5E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuddyBuild_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GBM-Mobile.BuddyBuild-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyBuild_iOS.app/BuddyBuild_iOS";
+			};
+			name = Release;
+		};
+		75CB90D21E687B4500B5E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuddyBuild_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GBM-Mobile.BuddyBuild-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuddyBuild_iOS;
+			};
+			name = Debug;
+		};
+		75CB90D31E687B4500B5E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuddyBuild_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GBM-Mobile.BuddyBuild-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuddyBuild_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75CB909E1E687B4500B5E868 /* Build configuration list for PBXProject "BuddyBuild_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CB90C91E687B4500B5E868 /* Debug */,
+				75CB90CA1E687B4500B5E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CB90CB1E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CB90CC1E687B4500B5E868 /* Debug */,
+				75CB90CD1E687B4500B5E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75CB90CE1E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CB90CF1E687B4500B5E868 /* Debug */,
+				75CB90D01E687B4500B5E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75CB90D11E687B4500B5E868 /* Build configuration list for PBXNativeTarget "BuddyBuild_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CB90D21E687B4500B5E868 /* Debug */,
+				75CB90D31E687B4500B5E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75CB909B1E687B4500B5E868 /* Project object */;
+}
